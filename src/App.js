@@ -1,9 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './components/Navbar';
 function App() {
   return (
-    <h2>City Guide App</h2>
+
+    <Navbar>City Guide App</Navbar>
   );
 }
 
